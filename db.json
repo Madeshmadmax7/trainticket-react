@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "0070",
+      "username": "Madesh",
+      "password": "123456",
+      "email": "madmax@email.com",
+      "phone": "7904371609"
+    },
+    {
+      "id": "6467",
+      "username": "Shyamala",
+      "password": "112112",
+      "email": "shyamala@gmail.com",
+      "phone": "9994335522"
+    },
+    {
+      "id": "99e1",
+      "username": "Hari",
+      "password": "hari",
+      "email": "hari@gmail.com",
+      "phone": "1234567890"
+    },
+    {
+      "id": "3160",
+      "username": "deepika",
+      "password": "123456",
+      "email": "salman@gmail.com",
+      "phone": "1234567890"
+    },
+    {
+      "id": "4c3a",
+      "username": "karan",
+      "password": "#1Vp",
+      "email": "karansivakumar12@gmail.com",
+      "phone": "8122628688"
+    },
+    {
+      "id": "f5ab",
+      "username": "Madesh",
+      "password": "11111",
+      "email": "Madesh@example.com",
+      "phone": "17717717717717"
+    },
+    {
+      "id": "de11",
+      "username": "Madesh",
+      "password": "Madmax07",
+      "email": "amadesh702@gmail.com",
+      "phone": "7904371609"
+    }
+  ]
+}

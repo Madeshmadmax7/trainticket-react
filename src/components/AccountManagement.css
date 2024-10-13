@@ -1,0 +1,90 @@
+.jkl-account-management {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('Train1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: #000;
+}
+
+.jkl-account-details {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jkl-account-details h2 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.jkl-account-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.jkl-buttons {
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 35%;
+    transition: background-color 0.3s ease;
+}
+
+.jkl-password-confirmation {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jkl-password-confirmation h4 {
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.jkl-password {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.jkl-password:focus {
+    outline: none;
+    border-color: #000;
+}
+
+button:hover {
+    background-color: grey;
+}

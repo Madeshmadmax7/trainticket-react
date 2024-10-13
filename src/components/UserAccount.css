@@ -1,0 +1,107 @@
+.pqrst-profile-page-container {
+    background: url('Train1.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-top: 60px; 
+}
+
+.pqrst-navbar {
+    position: absolute;
+    width: 100%;
+    top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: #000;
+}
+
+.pqrst-navbar-img {
+    width: 20px;
+    height: auto;
+}
+
+.pqrst-navbar-link {
+    border-radius: 30px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pqrst-navbar-link:hover {
+    background-color: grey;
+    color: #000;
+}
+
+.pqrst-profile-container {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pqrst-profile-card {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.pqrst-profile-card:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.pqrst-recent-trips {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.pqrst-recent-trips h3 {
+    margin-bottom: 10px;
+}
+
+.pqrst-no-updates {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.pqrst-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pqrst-button {
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    background: black;
+    border: 2px solid #000;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pqrst-button:hover {
+    border: 2px solid lightgrey;
+    color: #000;
+    background-color: lightgrey;
+}

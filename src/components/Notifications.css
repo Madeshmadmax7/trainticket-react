@@ -1,0 +1,142 @@
+.mno-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mno-navbar {
+    position: absolute;
+    width: 100%;
+    top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: #000;
+}
+
+.mno-logo {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.mno-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mno-link {
+    border-radius: 30px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.mno-linka {
+    border-radius: 30px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.mno-link:hover {
+    background-color: grey;
+    color: #000;
+}
+
+.mno-container {
+    background: url('Train1.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mno-text-box {
+    background-color: rgba(255, 255, 255, 0.888);
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.mno-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.mno-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mno-list li {
+    font-size: larger;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.mno-no-notifications {
+    font-size: larger;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .mno-text-box {
+        padding: 20px;
+    }
+
+    .mno-title {
+        font-size: 1.8em;
+    }
+
+    .mno-list li {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .mno-text-box {
+        padding: 15px;
+    }
+
+    .mno-title {
+        font-size: 1.5em;
+    }
+
+    .mno-list li {
+        font-size: 1em;
+    }
+}
+.mno-clear-button {
+    background-color: #ff0057; /* Button background color */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Space above the button */
+}
+
+.mno-clear-button:hover {
+    background-color: #e6004d; /* Darker shade on hover */
+}

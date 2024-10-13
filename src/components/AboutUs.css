@@ -1,0 +1,109 @@
+.abc-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.abc-navbar {
+    position: absolute;
+    width: 100%;
+    top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: #000;
+    
+}
+
+.abc-logo {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.abc-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.abc-link {
+    border-radius: 30px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.abc-link:hover {
+    background-color: grey;
+    color: #000;
+}
+
+.xyz-container {
+    background: url('Train1.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xyz-text-box {
+    background-color: rgba(255, 255, 255, 0.888);
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.xyz-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.xyz-text {
+    font-size: larger;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .xyz-text-box {
+        padding: 20px;
+    }
+
+    .xyz-title {
+        font-size: 1.8em;
+    }
+
+    .xyz-text {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .xyz-text-box {
+        padding: 15px;
+    }
+
+    .xyz-title {
+        font-size: 1.5em;
+    }
+
+    .xyz-text {
+        font-size: 1em;
+    }
+}

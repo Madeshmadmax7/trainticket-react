@@ -1,0 +1,138 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: #000;
+}
+
+.navbar-link {
+    border-radius: 30px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-link:hover {
+    background-color: grey;
+    color: #000;
+}
+
+.navbar-links {
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+html {
+    font-size: 16px;
+}
+
+.seat-selection-container-unique h1{
+    font-weight: bolder;
+}
+.seat-selection-container-unique {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Train1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.seat-selection-content-unique {
+    max-width: 500px;
+    text-align: center;
+}
+
+.seats-background-unique {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.seats-container-unique {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.row-unique {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.seat-unique {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.seat-label-unique {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #F42536;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+input[type=checkbox]:checked + .seat-label-unique {
+    background-color: #bada55;
+}
+
+input[type=checkbox]:disabled + .seat-label-unique {
+    background-color: #dddddd;
+    color: transparent;
+}
+
+.button-container-unique {
+    margin-top: 20px;
+}
+
+.pay-button-unique {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #326a34;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pay-button-unique:hover {
+    background-color: #0aaf13;
+}
